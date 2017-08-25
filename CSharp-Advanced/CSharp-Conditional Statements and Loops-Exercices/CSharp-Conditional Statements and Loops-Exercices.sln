@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem14-Magic-Letter", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem15-Neighbour-Wars", "Problem15-Neighbour-Wars\Problem15-Neighbour-Wars.csproj", "{F22950D0-4281-4F25-8573-5771D92BC75B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem10-Triangle-of-Numbers", "Problem10-Triangle-of-Numbers\Problem10-Triangle-of-Numbers.csproj", "{B915F59B-40C2-4B6C-B7C1-788E8C7725C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem11-5-Different-Numbers", "Problem11-5-Different-Numbers\Problem11-5-Different-Numbers.csproj", "{C5B87AF1-43D9-4183-8A1B-980835C448FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{F22950D0-4281-4F25-8573-5771D92BC75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22950D0-4281-4F25-8573-5771D92BC75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22950D0-4281-4F25-8573-5771D92BC75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B915F59B-40C2-4B6C-B7C1-788E8C7725C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B915F59B-40C2-4B6C-B7C1-788E8C7725C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B915F59B-40C2-4B6C-B7C1-788E8C7725C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B915F59B-40C2-4B6C-B7C1-788E8C7725C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B87AF1-43D9-4183-8A1B-980835C448FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B87AF1-43D9-4183-8A1B-980835C448FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B87AF1-43D9-4183-8A1B-980835C448FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B87AF1-43D9-4183-8A1B-980835C448FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
