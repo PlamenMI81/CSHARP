@@ -6,15 +6,14 @@ namespace problem1
     {
         private static void Main(string[] args)
         {
-            double l = double.Parse(Console.ReadLine());
-            double w = double.Parse(Console.ReadLine());
-            double a = double.Parse(Console.ReadLine());
-            double goleminaZala = l * 100 * (w * 100);
-            double goleminaGarderob = a * 100 * (a * 100);
-            double goleminaPejka = goleminaZala / 10;
-            double freeArea = goleminaZala - goleminaGarderob - goleminaPejka;
-            double dancers = freeArea / (40 + 7000);
-            Console.WriteLine($"{Math.Floor(dancers)}");
+            int tables = int.Parse(Console.ReadLine());
+            double tableLenght = double.Parse(Console.ReadLine()); //daljina
+            double tableWidth = double.Parse(Console.ReadLine()); //shiro4ina
+            double allTableclothArea = tables * (tableLenght + 2 * 0.30) * (tableWidth + 2 * 0.30);
+            double allKareArea = tables * (tableLenght / 2) * (tableLenght / 2);
+            double priceInDolars = allTableclothArea * 7.00 + allKareArea * 9.00;
+            double priceInLev = priceInDolars * 1.85;
+            Console.WriteLine($"{priceInDolars:f2} USD\n{priceInLev:f2} BGN");
         }
     }
 }
