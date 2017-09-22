@@ -50,7 +50,7 @@ namespace Problem3_RestaurantDiscount
             decimal totallPrice = priceHall + priceDisc;
             totallPrice = totallPrice - totallPrice * disc;
             decimal pricePerPerson = totallPrice / groupSize;
-            Console.WriteLine($"We can offer you the {hall}\n" +
+            Console.WriteLine($"We can offer you the {hall}" + Environment.NewLine +
                               $"The price per person is {pricePerPerson:f2}$");
         }
     }
