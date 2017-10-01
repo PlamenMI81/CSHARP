@@ -8,7 +8,7 @@ namespace _01_Practice_Integer_Numbers
         {
             sbyte num1 = -100;
             byte num2 = 128;
-            short num3 = 3540;
+            short num3 = -3540;
             ushort num4 = 64876;
             uint num5 = 2147483648;
             int num6=-1141583228;
