@@ -26,7 +26,7 @@ namespace _14_Factorial_Trailing_Zeroes
             string resultStr = result.ToString();
             int countZeros = 0;
             int stringlenght = resultStr.Length-1;
-            for (int i = 0; i < stringlenght; i++)
+            for (int i = 0; i <= stringlenght; i++)
             {
                 if (resultStr.EndsWith("0"))
                 {
