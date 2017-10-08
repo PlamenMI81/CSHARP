@@ -8,23 +8,16 @@ namespace _08_Condense_Array_to_Number
         static void Main(string[] args)
         {
             int[] stringInput = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            while (stringInput.Length>0)
+            while (stringInput.Length > 1)
             {
-                int[] condensed=new int[stringInput.Length-1];
-                for (int i = 0; i < stringInput.Length-1; i++)
+                int[] condensed = new int[stringInput.Length - 1];
+                for (int i = 0; i < condensed.Length; i++)
                 {
                     condensed[i] = stringInput[i] + stringInput[i + 1];
                 }
-
-                //How ------>  stringInput[] = condensed[]
-
-
-
-                foreach (int i in condensed)
-                {
-                    Console.WriteLine(i);
-                }
+                stringInput = condensed;
             }
+            Console.WriteLine(stringInput[0]);
         }
     }
 }
