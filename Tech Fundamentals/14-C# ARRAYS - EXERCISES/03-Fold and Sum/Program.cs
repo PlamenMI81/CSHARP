@@ -8,31 +8,23 @@ namespace _03_Fold_and_Sum
         static void Main(string[] args)
         {
             int[] inputArray = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-            int[] sum = new int[inputArray.Length / 2];
-            Fold(inputArray);
-            Sum(inputArray,sum);
-        }
+            int k = inputArray.Length / 4;
 
-        private static int[] Sum(int[] inputArray, int[] sum)
-        {
-            for (int i = 0; i <inputArray.Length/4; i++)
-            {
-                sum[i] = inputArray[i] + inputArray[i + inputArray.Length / 4];
-            }
-            for (int i = inputArray.Length/2; i < (inputArray.Length - inputArray.Length / 4); i++)
-            {
-                sum[i] = inputArray[i] + inputArray[i + (inputArray.Length-inputArray.Length/4)];
-            }
-            return  sum;
-        }
+            int[] leftArr = inputArray.Take(k).ToArray();
+            int[] mid = inputArray.Skip(k).Take(k * 2).ToArray();
+            int[] rightArr = inputArray.Skip(k * 3).Take(k).ToArray();
 
-        private static int[] Fold(int[] inputArray)
-        {
-            int leftFoldEndBorder = inputArray.Length / 4;
-            int rightFoldStartBorder = inputArray.Length - (inputArray.Length / 4);
-            Array.Reverse(inputArray, 0, leftFoldEndBorder);
-            Array.Reverse(inputArray, rightFoldStartBorder, leftFoldEndBorder);
-            return inputArray;
+            Array.Reverse(leftArr);
+            Array.Reverse(rightArr);
+
+            int[] sum = leftArr.Concat(rightArr).ToArray();
+
+            for (int i = 0; i < sum.Length; i++)
+            {
+                sum[i] += mid[i];
+            }
+
+            Console.WriteLine($"{string.Join(" ", sum)}");
         }
     }
 }
