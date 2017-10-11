@@ -18,7 +18,7 @@ public class BePositive_broken
             {
                 int currentNum = numbers[j];
 
-                if (currentNum == 0)
+                if (currentNum >= 0)
                 {
                     if (found)
                     {
