@@ -3,38 +3,45 @@ using System.Linq;
 
 namespace _06_Max_Sequence_of_Equal_Elements
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             int[] seq = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            int start = seq.Length - 1;
-            int element = 0;
-            int bestElement = 0;
-            int len = 1;
-            int bestLen = 1;
-            for (int i = start; i >= 1; i--)
+            int seqLen = seq.Length - 1;
+            int equal = 1;
+            int maxEqual = 1;
+            int sign = 0;
+            int bestSign = 0;
+            MaxEqualSeq(seq, seqLen, equal, ref maxEqual, sign, ref bestSign);
+            
+            //Print result
+            for (int i = 0; i < maxEqual; i++)
+                if (i == maxEqual - 1)
+                    Console.WriteLine(bestSign);
+                else
+                    Console.Write(bestSign + " ");
+        }
+
+        private static void MaxEqualSeq(int[] seq, int seqLen, int equal, ref int maxEqual, int sign, ref int bestSign)
+        {
+            for (int i = 0; i <= seqLen - 1; i++)
             {
-                if (seq[i] == seq[i - 1] )
+                if (seq[i] == seq[i + 1])
                 {
-                    element = seq[i];
-                    len++;
-                    if (len >= bestLen)
-                    {
-                        bestElement = element;
-                        bestLen = len;
-                    }
+                    equal++;
+                    sign = seq[i];
                 }
                 else
                 {
-                    len = 1;
+                    equal = 1;
+                }
+                if (equal > maxEqual)
+                {
+                    maxEqual = equal;
+                    bestSign = sign;
                 }
             }
-            for (int i = 0; i < bestLen; i++)
-            {
-                Console.Write($"{bestElement} "); 
-            }
-            Console.WriteLine();
         }
     }
 }

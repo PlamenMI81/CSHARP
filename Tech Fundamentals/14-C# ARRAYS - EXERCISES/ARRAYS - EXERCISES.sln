@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Largest Common End", "01-Largest Common End\01-Largest Common End.csproj", "{DE6A9C50-E6D1-4A84-9DE0-63D28677F2B3}"
 EndProject
@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Compare Char Arrays", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-Max Sequence of Equal Elements", "06-Max Sequence of Equal Elements\06-Max Sequence of Equal Elements.csproj", "{46254FEE-3B04-40EE-8949-FA12C59429A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Max Sequence of Increasing Elements", "07-Max Sequence of Increasing Elements\07-Max Sequence of Increasing Elements.csproj", "{33B28412-1921-46D9-B999-B3E89AB988E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-Max Sequence of Increasing Elements", "07-Max Sequence of Increasing Elements\07-Max Sequence of Increasing Elements.csproj", "{33B28412-1921-46D9-B999-B3E89AB988E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-Most Frequent Number", "08-Most Frequent Number\08-Most Frequent Number.csproj", "{B7062804-9F64-41EB-AAFB-DBA454A623EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{33B28412-1921-46D9-B999-B3E89AB988E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B28412-1921-46D9-B999-B3E89AB988E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B28412-1921-46D9-B999-B3E89AB988E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7062804-9F64-41EB-AAFB-DBA454A623EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7062804-9F64-41EB-AAFB-DBA454A623EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7062804-9F64-41EB-AAFB-DBA454A623EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7062804-9F64-41EB-AAFB-DBA454A623EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
