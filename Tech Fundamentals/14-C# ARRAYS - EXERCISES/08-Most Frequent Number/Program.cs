@@ -6,7 +6,7 @@ namespace _08_Most_Frequent_Number
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
