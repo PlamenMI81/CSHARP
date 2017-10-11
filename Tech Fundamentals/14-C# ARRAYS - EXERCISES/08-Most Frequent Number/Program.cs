@@ -17,7 +17,7 @@ namespace _08_Most_Frequent_Number
             int bestHowTimes = 1;
             for (int i = 0; i < sequence.Length; i++)
             {
-                for (int j = i + 1; j < sequence.Length; j++)
+                for (int j = i ; j < sequence.Length; j++)
                 {
                     if (sequence[i] == sequence[j])
                     {
