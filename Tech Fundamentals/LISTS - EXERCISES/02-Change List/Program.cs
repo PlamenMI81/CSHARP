@@ -12,7 +12,9 @@ namespace _02_Change_List
                 .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
-            string[] command = Console.ReadLine().ToLower().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+            string[] command = Console.ReadLine()
+                .ToLower().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .ToArray();
 
             while (true)
             {
