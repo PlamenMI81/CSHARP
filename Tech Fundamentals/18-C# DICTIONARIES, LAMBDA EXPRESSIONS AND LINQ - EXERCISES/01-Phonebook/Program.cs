@@ -32,13 +32,13 @@ namespace _01_Phonebook
 
         private static void AddEntry(Dictionary<string, string> phonebook, string name, string phone)
         {
-            if (phonebook.ContainsKey(name))
+            if (!phonebook.ContainsKey(name))
             {
-                phonebook[name] = phone;
+                phonebook.Add(name, phone);
             }
             else
             {
-                phonebook.Add(name, phone);
+                phonebook[name] = phone;
             }
         }
     }
