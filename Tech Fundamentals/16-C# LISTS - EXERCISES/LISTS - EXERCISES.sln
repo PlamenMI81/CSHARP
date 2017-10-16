@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Search for a Number", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Array Manipulator", "05-Array Manipulator\05-Array Manipulator.csproj", "{36E6BD3A-FB5C-4B89-AEA3-E9F4535F29A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Sum Reversed Numbers", "06-Sum Reversed Numbers\06-Sum Reversed Numbers.csproj", "{57DBACC8-13CD-4667-95D2-1E4E42106544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-Sum Reversed Numbers", "06-Sum Reversed Numbers\06-Sum Reversed Numbers.csproj", "{57DBACC8-13CD-4667-95D2-1E4E42106544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
