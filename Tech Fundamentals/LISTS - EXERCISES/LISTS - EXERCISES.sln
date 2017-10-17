@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Change List", "02-Change
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Search for a Number", "03-Search for a Number\03-Search for a Number.csproj", "{6D0AC0B1-1D63-47B1-84C2-C93A81BAB231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Array Manipulator", "05-Array Manipulator\05-Array Manipulator.csproj", "{36E6BD3A-FB5C-4B89-AEA3-E9F4535F29A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Array Manipulator", "05-Array Manipulator\05-Array Manipulator.csproj", "{36E6BD3A-FB5C-4B89-AEA3-E9F4535F29A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
