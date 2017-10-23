@@ -16,7 +16,7 @@ namespace _07_Andrey_and_Billiard
                 ReadArticles(storeDatabase);
             }
 
-            Dictionary<string, Dictionary<string, int>> customer = new Dictionary<string, Dictionary<string, int>>();
+            Dictionary<string, Dictionary<string, int>> customerBill = new Dictionary<string, Dictionary<string, int>>();
             while (true)
             {
                 var currentCustomer = Console.ReadLine().Split('-').ToArray();
@@ -28,8 +28,21 @@ namespace _07_Andrey_and_Billiard
                 var articleArgs = currentCustomer[1].Split(',').ToArray();
                 string article = articleArgs[0];
                 int quantity = int.Parse(articleArgs[1]);
-                FillCustomersOrders(customer, storeDatabase, customerName, article, quantity);
+                FillCustomersOrders(customerBill, storeDatabase, customerName, article, quantity);
             }
+            //var orderedCustomers=customer.OrderBy(x => x.Key);
+            foreach (var currCustomer in customerBill.OrderBy(x=>x.Key))
+            {
+                Console.WriteLine(currCustomer.Key);
+                foreach (var c in currCustomer.Value)
+                {
+                    //var currBill = c.Value*storeDatabase[];
+                    Console.WriteLine($"-- {c.Key} - {c.Value}");
+                    Console.WriteLine($"Bill: {0}");
+                }
+                
+            }
+
         }
 
         private static void FillCustomersOrders(Dictionary<string, Dictionary<string, int>> customer, Dictionary<string, double> storeDatabase, string customerName, string article, int quantity)

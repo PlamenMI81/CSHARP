@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Count Working Days", "01-Count Working Days\01-Count Working Days.csproj", "{FDDC1EDE-253D-46B9-847A-381076E77232}"
 EndProject
@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Book Library", "05-Book 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-Book Library Modification", "06-Book Library Modification\06-Book Library Modification.csproj", "{1F1B2618-2F43-479A-93B1-9C70874B5142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Andrey and Billiard", "07-Andrey and Billiard\07-Andrey and Billiard.csproj", "{A008F981-6279-4159-A9B9-3A4698382DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-Andrey and Billiard", "07-Andrey and Billiard\07-Andrey and Billiard.csproj", "{A008F981-6279-4159-A9B9-3A4698382DB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-1-Andrey and Billiard", "07-1-Andrey and Billiard\07-1-Andrey and Billiard.csproj", "{73AC3544-E796-405F-AE1A-D62CDC545C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-Mentor Group", "08-Mentor Group\08-Mentor Group.csproj", "{E2880786-BCF4-4E24-B862-F8705A3A409A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{A008F981-6279-4159-A9B9-3A4698382DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A008F981-6279-4159-A9B9-3A4698382DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A008F981-6279-4159-A9B9-3A4698382DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73AC3544-E796-405F-AE1A-D62CDC545C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AC3544-E796-405F-AE1A-D62CDC545C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AC3544-E796-405F-AE1A-D62CDC545C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AC3544-E796-405F-AE1A-D62CDC545C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2880786-BCF4-4E24-B862-F8705A3A409A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2880786-BCF4-4E24-B862-F8705A3A409A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2880786-BCF4-4E24-B862-F8705A3A409A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2880786-BCF4-4E24-B862-F8705A3A409A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
