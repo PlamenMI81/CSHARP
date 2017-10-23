@@ -5,55 +5,85 @@ using System.Linq;
 
 namespace _08_Mentor_Group
 {
-    class Student
+    public class Student
     {
-        public string Name { get; set; }
+        public string Name { get; }
         public List<string> Comments { get; set; }
-        public List<DateTime> Date { get; set; }
+        public List<DateTime> Dates { get; set; }
+
+        public Student(string name)
+        {
+            Name = name;
+            Comments = new List<string>();
+            Dates = new List<DateTime>();
+        }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            List<Student> students = new List<Student>();
-            string input = Console.ReadLine();
-            List<DateTime> dates = new List<DateTime>();
-            string nameUser = "";
-            while (input != "end of dates")
-            {
-                string[] userAndDate = input.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
-                nameUser = userAndDate[0];
-                foreach (var date in userAndDate.Skip(1))
-                {
-                    dates.Add(DateTime.ParseExact(date, "dd/MM/yyyy", CultureInfo.InvariantCulture));
-                }
+            SortedDictionary<string, Student> studentsDict = new SortedDictionary<string, Student>();
 
-                input = Console.ReadLine();
+            while (true)
+            {
+                string input = Console.ReadLine();
+                if (input == "end of dates")
+                {
+                    break;
+                }
+                List<string> inputData = input.Split(' ', ',').ToList();
+                string userName = inputData[0];
+                inputData.RemoveAt(0);
+                Student someStudent = new Student(userName);
+                someStudent.Dates = inputData.Select(x => DateTime.ParseExact(x, "dd/MM/yyyy", CultureInfo.InvariantCulture)).ToList();
+                List<DateTime> studentDates = inputData.Select(x => DateTime.ParseExact(x, "dd/MM/yyyy", CultureInfo.InvariantCulture)).ToList();
+                if (studentsDict.ContainsKey(userName))
+                {
+                    foreach (var date in studentDates)
+                    {
+                        studentsDict[userName].Dates.Add(date);
+                    }
+                }
+                else
+                {
+                    studentsDict.Add(userName, someStudent);
+                }
             }
 
-
-            student.Name = nameUser;
-            student.Date = dates;
-
-            string inputComments = Console.ReadLine();
-            List<string> comments = new List<string>();
-            while (input != "end of comments")
+            while (true)
             {
-                string[] userAndComment = inputComments.Split(new[] { '-' }, StringSplitOptions.RemoveEmptyEntries);
-                foreach (string com in userAndComment.Skip(1))
+                string input = Console.ReadLine();
+                if (input == "end of comments")
                 {
-                    comments.Add(com);
-                }
-                if (student.Name.Equals(userAndComment[0]))
-                {
-                    student.Comments = comments;
+                    break;
                 }
 
-                input = Console.ReadLine();
+                var inputData = input.Split('-');
+
+                if (!studentsDict.ContainsKey(inputData[0]))
+                {
+                    continue;
+                }
+                studentsDict[inputData[0]].Comments.Add(inputData[1]);
+            }
+
+            foreach (var student in studentsDict.Values)
+            {
+                Console.WriteLine(student.Name);
+                Console.WriteLine("Comments:");
+                foreach (var comment in student.Comments)
+                {
+                    Console.WriteLine($"- {comment}");
+                }
+                Console.WriteLine("Dates attended:");
+                foreach (var date in student.Dates.OrderBy(x => x))
+                {
+
+                    Console.WriteLine($"-- {date.ToString($"dd")}/{date.ToString($"MM")}/{date.ToString($"yyyy")}" +$"");
+                }
             }
         }
-
-
     }
+    
 }
