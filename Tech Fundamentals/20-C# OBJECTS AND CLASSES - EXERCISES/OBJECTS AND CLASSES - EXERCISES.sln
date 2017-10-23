@@ -1,19 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Count Working Days", "01-Count Working Days\01-Count Working Days.csproj", "{FDDC1EDE-253D-46B9-847A-381076E77232}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Advertisement Message", "02-Advertisement Message\02-Advertisement Message.csproj", "{315F446D-99A3-4B34-A6CF-199CAD2766AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Advertisement Message", "02-Advertisement Message\02-Advertisement Message.csproj", "{315F446D-99A3-4B34-A6CF-199CAD2766AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Intersection of Circles", "03-Intersection of Circles\03-Intersection of Circles.csproj", "{F400BBD7-D803-4323-BED2-E298C2465C8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Intersection of Circles", "03-Intersection of Circles\03-Intersection of Circles.csproj", "{F400BBD7-D803-4323-BED2-E298C2465C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Average Grades", "04-Average Grades\04-Average Grades.csproj", "{C52D5F53-219C-4164-A0E2-601FDABE91B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-Average Grades", "04-Average Grades\04-Average Grades.csproj", "{C52D5F53-219C-4164-A0E2-601FDABE91B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Book Library", "05-Book Library\05-Book Library.csproj", "{D6FCFCBF-6B5E-43AD-9765-E081C55240FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Book Library", "05-Book Library\05-Book Library.csproj", "{D6FCFCBF-6B5E-43AD-9765-E081C55240FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Book Library Modification", "06-Book Library Modification\06-Book Library Modification.csproj", "{1F1B2618-2F43-479A-93B1-9C70874B5142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-Book Library Modification", "06-Book Library Modification\06-Book Library Modification.csproj", "{1F1B2618-2F43-479A-93B1-9C70874B5142}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-Andrey and Billiard", "07-Andrey and Billiard\07-Andrey and Billiard.csproj", "{A008F981-6279-4159-A9B9-3A4698382DB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-1-Andrey and Billiard", "07-1-Andrey and Billiard\07-1-Andrey and Billiard.csproj", "{73AC3544-E796-405F-AE1A-D62CDC545C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-Mentor Group", "08-Mentor Group\08-Mentor Group.csproj", "{E2880786-BCF4-4E24-B862-F8705A3A409A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{1F1B2618-2F43-479A-93B1-9C70874B5142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F1B2618-2F43-479A-93B1-9C70874B5142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F1B2618-2F43-479A-93B1-9C70874B5142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A008F981-6279-4159-A9B9-3A4698382DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A008F981-6279-4159-A9B9-3A4698382DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A008F981-6279-4159-A9B9-3A4698382DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A008F981-6279-4159-A9B9-3A4698382DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73AC3544-E796-405F-AE1A-D62CDC545C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AC3544-E796-405F-AE1A-D62CDC545C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AC3544-E796-405F-AE1A-D62CDC545C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AC3544-E796-405F-AE1A-D62CDC545C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2880786-BCF4-4E24-B862-F8705A3A409A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2880786-BCF4-4E24-B862-F8705A3A409A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2880786-BCF4-4E24-B862-F8705A3A409A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2880786-BCF4-4E24-B862-F8705A3A409A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
