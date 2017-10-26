@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Convert from base-N to b
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Unicode Characters", "03-Unicode Characters\03-Unicode Characters.csproj", "{24F4EDFD-F2B8-4E75-9DDF-8612DD342D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Character Multiplier", "04-Character Multiplier\04-Character Multiplier.csproj", "{8D631209-92B7-4DA8-A877-846D0A808E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-Character Multiplier", "04-Character Multiplier\04-Character Multiplier.csproj", "{8D631209-92B7-4DA8-A877-846D0A808E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Magic exchangeable words", "05-Magic exchangeable words\05-Magic exchangeable words.csproj", "{BB9294D2-15ED-4E95-808D-3F05F969E6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Sum big numbers", "06-Sum big numbers\06-Sum big numbers.csproj", "{F26C200E-E102-4B44-9F52-E51AAC48BE32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{8D631209-92B7-4DA8-A877-846D0A808E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D631209-92B7-4DA8-A877-846D0A808E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D631209-92B7-4DA8-A877-846D0A808E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9294D2-15ED-4E95-808D-3F05F969E6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9294D2-15ED-4E95-808D-3F05F969E6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9294D2-15ED-4E95-808D-3F05F969E6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9294D2-15ED-4E95-808D-3F05F969E6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26C200E-E102-4B44-9F52-E51AAC48BE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26C200E-E102-4B44-9F52-E51AAC48BE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26C200E-E102-4B44-9F52-E51AAC48BE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26C200E-E102-4B44-9F52-E51AAC48BE32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
