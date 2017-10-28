@@ -8,11 +8,11 @@ namespace _05_Magic_exchangeable_words
     {
         static void Main()
         {
-            again:
+            //again:
             var inputLine = Console.ReadLine().Split();
             var result = IsMagic(inputLine);
             Console.WriteLine(result.ToString().ToLower());
-            goto again;
+            //goto again;
         }
 
         public static bool IsMagic(string[] inputLine)

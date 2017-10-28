@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Unicode Characters", "03
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-Character Multiplier", "04-Character Multiplier\04-Character Multiplier.csproj", "{8D631209-92B7-4DA8-A877-846D0A808E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Magic exchangeable words", "05-Magic exchangeable words\05-Magic exchangeable words.csproj", "{BB9294D2-15ED-4E95-808D-3F05F969E6EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-Magic exchangeable words", "05-Magic exchangeable words\05-Magic exchangeable words.csproj", "{BB9294D2-15ED-4E95-808D-3F05F969E6EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Sum big numbers", "06-Sum big numbers\06-Sum big numbers.csproj", "{F26C200E-E102-4B44-9F52-E51AAC48BE32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-Sum big numbers", "06-Sum big numbers\06-Sum big numbers.csproj", "{F26C200E-E102-4B44-9F52-E51AAC48BE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Multiply big number", "07-Multiply big number\07-Multiply big number.csproj", "{830EF6D2-1163-4965-8032-57A77A4D63FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F26C200E-E102-4B44-9F52-E51AAC48BE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F26C200E-E102-4B44-9F52-E51AAC48BE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F26C200E-E102-4B44-9F52-E51AAC48BE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830EF6D2-1163-4965-8032-57A77A4D63FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830EF6D2-1163-4965-8032-57A77A4D63FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830EF6D2-1163-4965-8032-57A77A4D63FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830EF6D2-1163-4965-8032-57A77A4D63FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
