@@ -28,7 +28,6 @@ namespace _07_Multiply_big_number
                         rem = 0;
                     }
                     sb.Insert(0, currCharMult);
-
                 }
                 stringResult = sb.ToString();
             }
