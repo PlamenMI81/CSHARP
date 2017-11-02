@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Extract Emails", "01-Extract Emails\01-Extract Emails.csproj", "{7384659B-4F65-48FC-AE51-433D59F17A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Extract Emails", "01-Extract Emails\01-Extract Emails.csproj", "{7384659B-4F65-48FC-AE51-433D59F17A8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Extract Sentences by Keyword", "02-Extract Sentences by Keyword\02-Extract Sentences by Keyword.csproj", "{A087AF04-AAA1-4746-BBFA-D4AC756CD251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Extract Sentences by Keyword", "02-Extract Sentences by Keyword\02-Extract Sentences by Keyword.csproj", "{A087AF04-AAA1-4746-BBFA-D4AC756CD251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Weather", "04-Weather\04-Weather.csproj", "{A888DBA7-F9A3-4AB1-950A-0AC41D77BA76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Valid Usernames", "06-Valid Usernames\06-Valid Usernames.csproj", "{E6E4CBE2-EEB8-4750-B9C0-01B951F3DA3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{A087AF04-AAA1-4746-BBFA-D4AC756CD251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A087AF04-AAA1-4746-BBFA-D4AC756CD251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A087AF04-AAA1-4746-BBFA-D4AC756CD251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A888DBA7-F9A3-4AB1-950A-0AC41D77BA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A888DBA7-F9A3-4AB1-950A-0AC41D77BA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A888DBA7-F9A3-4AB1-950A-0AC41D77BA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A888DBA7-F9A3-4AB1-950A-0AC41D77BA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E4CBE2-EEB8-4750-B9C0-01B951F3DA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E4CBE2-EEB8-4750-B9C0-01B951F3DA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E4CBE2-EEB8-4750-B9C0-01B951F3DA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E4CBE2-EEB8-4750-B9C0-01B951F3DA3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
