@@ -5,7 +5,7 @@ function result(arr) {
         let currLine=arr[i].split(' - ');
         let index=Number(currLine[0]);
         let value=currLine[1];
-        resArr.splice(index,1,value);
+        resArr[index]=value;
     }
     for (let i=0;i<lines;i++) {
         let value=resArr[i];
@@ -14,6 +14,5 @@ function result(arr) {
         }
         console.log(value);
     }
-
 }
 result(['5','0 - 3','3 - -1','4 - 2']);
