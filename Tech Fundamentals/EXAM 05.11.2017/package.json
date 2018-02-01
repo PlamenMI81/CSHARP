@@ -1,0 +1,7 @@
+{
+  "name": "EXAM 05.11.2017",
+  "version": "0.0.1",
+  "dependencies": {
+    "numeral": "latest"
+  }
+}
