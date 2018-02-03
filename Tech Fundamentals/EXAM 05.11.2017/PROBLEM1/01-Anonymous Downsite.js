@@ -11,7 +11,7 @@ function solution(arr) {
             console.log(siteName);
         }
     }
-    console.log(`Total Loss: ${sitesLoss.toFixed(20)}`);
+    console.log(`Total Loss: ${(Math.round(1000000000*sitesLoss)/1000000000).toFixed(9).concat('00000000000')}`);
     let secToken = Math.pow(securityKey, countSites);
     console.log(`Security Token: ${secToken}`);
 }
